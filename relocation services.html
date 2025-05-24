@@ -7,25 +7,29 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <div class="container">
-      <img src="A_vector_graphic_emblem_logo_showcases_Georgia_Bri.png" alt="Georgia Bridge Ventures Logo" class="logo" />
-      <h1>Georgia Bridge Ventures</h1>
-       <nav class="navbar">
-    <ul class="navbar-menu">
-      <li><a href="#culture">Traditional Culture</a></li>
-      <li><a href="#crypto">Crypto & Blockchain</a></li>
-      <li><a href="#investment">Investment Opportunities</a></li>
-      <li><a href="#contact">Contact Us</a></li>
-    </ul>
-  </nav>
+  <!-- Header -->
+  <header class="header" style="background-color: #002B36; color: #FFFFFF; text-align: center; padding: 20px;">
+    <div class="header-content" style="font-size: 24px; font-weight: bold;">
+      <span>Your Gateway from Bristol to the Caucasus’ Next Frontier</span>
+      <img src="logo.png" alt="Logo" class="logo" style="max-height: 50px; vertical-align: middle; margin-left: 10px;">
     </div>
   </header>
 
+  <!-- Navbar -->
+  <nav class="navbar" style="background-color: #235778; padding: 10px 0;">
+    <ul class="navbar-menu" style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; gap: 40px;">
+      <li><a href="#culture" style="color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 16px;">Traditional Culture</a></li>
+      <li><a href="#crypto" style="color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 16px;">Crypto & Blockchain</a></li>
+      <li><a href="#investment" style="color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 16px;">Investment Opportunities</a></li>
+      <li><a href="#contact" style="color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 16px;">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
   <main class="container">
     <section class="content">
       <h2>Relocation Concierge Services</h2>
-      <p>We help British, Irish and Argentine digital nomads to move to Georgia with ease. Whether you're seeking a crypto-friendly lifestyle, a cultural escape, or geopolitical flexibility, our concierge service offers tailored support every step of the way.</p>
+      <p>We help British, Irish and Argentine digital nomads to move to Georgia with ease. Whether you're seeking a crypto-friendly lifestyle, a cultural escape, or geopolitical flexibility, our concierge services provide full-spectrum support.</p>
 
       <h3>What We Offer</h3>
       <ul>
@@ -63,11 +67,12 @@
         <label for="message">Tell us about your situation:</label>
         <textarea id="message" name="message" rows="5"></textarea>
 
-        <button type="submit">Submit Inquiry</button>
+        <button type="submit" class="info-btn" style="background-color: #FF7900; color: #FFFFFF; font-weight: bold; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Submit Inquiry</button>
       </form>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
     <div class="container">
       <p>&copy; 2025 Georgia Bridge Ventures. All rights reserved.</p>
