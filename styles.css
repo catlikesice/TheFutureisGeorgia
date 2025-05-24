@@ -11,15 +11,29 @@ body {
 }
 
 .header {
-  background: #112e3a;
-  padding: 80px 0 40px 0;
+  background-color: #002B36; /* Dark background color */
+  color: #FFFFFF; /* White text */
   text-align: center;
+  padding: 20px;
 }
 
 .header-content {
-  color: #fff;
-  font-size: 18px;
-  letter-spacing: 0.02em;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Logo Styling */
+.logo-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.logo {
+  max-height: 150px; /* Limits the height to prevent the logo from dominating the screen */
+  max-width: 100%; /* Ensures the logo scales proportionally */
+  height: auto; /* Maintain the aspect ratio */
+  display: inline-block; /* Centers the logo inline with other elements */
 }
 
 /* Navbar styles */
