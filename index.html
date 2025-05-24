@@ -1,69 +1,173 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Georgia Bridge Ventures</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Invest in the Future: Georgia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #112B3C;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #205375;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: #f9f9f9;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #F66B0E;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h1, h2 {
+      color: #112B3C;
+    }
+    .intro {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: space-between;
+    }
+    .card {
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      flex: 1 1 300px;
+      padding: 1.5rem;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+    footer {
+      background-color: #112B3C;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    a.button {
+      display: inline-block;
+      background-color: #F66B0E;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1rem;
+      transition: background-color 0.3s ease;
+    }
+    a.button:hover {
+      background-color: #d85b00;
+    }
+    @media (max-width: 700px) {
+      .cards {
+        flex-direction: column;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>Georgia Bridge Ventures</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#relocation">Relocation Concierge</a></li>
-          <li><a href="#boxes">Georgian Culture Boxes</a></li>
-          <li><a href="#retreats">Crypto Retreats</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h1>Discover Georgia: Where Tradition Meets the Future</h1>
+    <p>Your Gateway from Bristol to the Caucasus’ Next Frontier</p>
   </header>
 
-  <main>
-    <section class="hero">
-      <h2>Live Freely. Build Boldly. Connect Deeply.</h2>
-      <p>From the West of England to the heart of Georgia — experience a smoother transition, richer culture, and deeper purpose.</p>
+  <nav>
+    <a href="#culture">Traditional Culture</a>
+    <a href="#crypto">Crypto & Blockchain</a>
+    <a href="#invest">Investment Opportunities</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <div class="container">
+    <section class="intro">
+      <p>Georgia, a land of ancient heritage and breathtaking landscapes, is emerging as a prime destination for visionary investors from the West of England. With its thriving traditions, crypto-friendly policies, and pioneering blockchain governance, Georgia offers a unique blend of old-world charm and cutting-edge innovation.</p>
     </section>
 
-    <section id="relocation" class="info-block">
-      <h3>Relocation Concierge</h3>
-      <p>We help UK citizens relocate to Georgia with full-spectrum support: visa guidance, crypto-legal residency strategies, cultural orientation, housing setup, and tax-friendly structuring. Think of us as your personal landing pad.</p>
-      <ul>
-        <li>Remote consultations</li>
-        <li>On-the-ground assistance (Tbilisi, Kutaisi, Batumi)</li>
-        <li>Crypto-friendly banking and setup guidance</li>
-        <li>Georgian–UK legal coordination</li>
-      </ul>
+    <section id="culture">
+      <h2>Embrace Georgia’s Rich Traditional Culture</h2>
+      <p>Step into a world where 8,000-year-old winemaking techniques meet vibrant festivals, intricate crafts, and enduring hospitality. Georgia’s timeless cultural practices are not only treasures to preserve but foundations for sustainable business ventures in tourism, artisanal goods, and heritage experiences.</p>
     </section>
 
-    <section id="boxes" class="info-block">
-      <h3>Georgian Culture Boxes</h3>
-      <p>We curate seasonal boxes filled with traditional Georgian goods — including artisan wines, textiles, icons, teas, spices, and rare handmade gifts. Delivered to your door in the UK.</p>
-      <ul>
-        <li>Quarterly or one-time gift boxes</li>
-        <li>Support local monasteries and craftspeople</li>
-        <li>Includes cultural notes and artisan stories</li>
-        <li>Limited edition & collector items</li>
-      </ul>
+    <section id="crypto">
+      <h2>Leading the Way in Crypto-Mining & Blockchain Governance</h2>
+      <p>Georgia has positioned itself as a global crypto-mining hub, thanks to its low energy costs, supportive regulations, and stable infrastructure. Beyond mining, the country is at the forefront of experimenting with blockchain-based governance models—perfect for investors seeking innovative and decentralized futures.</p>
     </section>
 
-    <section id="retreats" class="info-block">
-      <h3>Crypto Retreats</h3>
-      <p>Join us for weekend and week-long experiences combining Georgian monastic life, Web3 thinking, and real-world resilience. For founders, thinkers, and nomads seeking depth and direction.</p>
+    <section id="invest">
+      <h2>Investment Opportunities Tailored for Bristol’s Visionaries</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Eco-Monastic Tech Sanctuaries</h3>
+          <p>Combine Georgia’s monastic architectural heritage with renewable energy and decentralized tech to build resilient, autonomous communities—a new model for sustainable living and innovation.</p>
+          <a href="#contact" class="button">Learn More</a>
+        </div>
+        <div class="card">
+          <h3>Qvevri Wine & Artisanal Exports</h3>
+          <p>Invest in the revival of ancient winemaking and traditional crafts to serve growing global markets craving authentic, culturally rich products.</p>
+          <a href="#contact" class="button">Get Details</a>
+        </div>
+        <div class="card">
+          <h3>Blockchain Governance Initiatives</h3>
+          <p>Participate in cutting-edge projects that leverage blockchain for transparent governance, community decision-making, and decentralized finance innovations.</p>
+          <a href="#contact" class="button">Contact Us</a>
+        </div>
+      </div>
     </section>
-  </main>
+
+    <section id="contact">
+      <h2>Connect With Us</h2>
+      <p>Ready to explore investment opportunities or learn more about Georgia’s unique blend of tradition and innovation? Reach out and let’s start a conversation.</p>
+      <form action="#" method="post" style="max-width:400px; margin-top:1rem;">
+        <label for="name">Name:</label><br/>
+        <input type="text" id="name" name="name" required style="width:100%; padding:0.5rem; margin-bottom:1rem;" />
+        
+        <label for="email">Email:</label><br/>
+        <input type="email" id="email" name="email" required style="width:100%; padding:0.5rem; margin-bottom:1rem;" />
+        
+        <label for="message">Message:</label><br/>
+        <textarea id="message" name="message" rows="4" required style="width:100%; padding:0.5rem; margin-bottom:1rem;"></textarea>
+        
+        <button type="submit" style="background-color:#F66B0E; border:none; padding:0.7rem 1.5rem; color:#fff; font-weight:bold; border-radius:4px; cursor:pointer;">
+          Send
+        </button>
+      </form>
+    </section>
+  </div>
 
   <footer>
-    <div class="container">
-      <section id="contact">
-        <h3>Contact</h3>
-        <p>Email us at <a href="mailto:hello@georgiabridge.com">hello@georgiabridge.com</a> to book a consultation or reserve a culture box.</p>
-      </section>
-      <p>&copy; 2025 Georgia Bridge Ventures. All rights reserved.</p>
-    </div>
+    <p>© 2025 Georgia Investment Initiative | Bridging Bristol & the Caucasus</p>
   </footer>
 </body>
 </html>
